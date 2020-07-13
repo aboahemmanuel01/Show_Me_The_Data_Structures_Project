@@ -4,7 +4,7 @@ The goal of this project is to design an LRU which is a type of cache in which w
 
 My task is to use an appropriate data structure(s) to implement the cache with following guidelines:
 ```
-In case of a cache hit, the `get()` operation should return the appropriate value.
+In case of a cache hit, the get() operation should return the appropriate value.
 In case of a cache miss, the get() should return -1.
 While putting an element in the cache, the put() / set() operation must insert the element. 
 If the cache is full, you must write code that removes the least recently used entry first and then insert the element.
