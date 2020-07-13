@@ -14,3 +14,12 @@ There are two phases in encoding, which are:
 `Building the Huffman tree (a binary tree)`, and `generating the encoded data`. 
 
 ## B. Huffman Decoding
+After encoding the data, and the (pointer to the root of) Huffman tree, we can easily decode the encoded data using the following steps:
+``
+1 Declare a blank decoded string
+2 Pick a bit from the encoded data, traversing from left to right.
+3 Start traversing the Huffman tree from the root.
+    If the current bit of encoded data is 0, move to the left child, else move to the right child of the tree if the current bit is 1.
+    If a leaf node is encountered, append the (alphabetical) character of the leaf node to the decoded string.
+4 Repeat steps #2 and #3 until the encoded data is completely traversed.
+```
