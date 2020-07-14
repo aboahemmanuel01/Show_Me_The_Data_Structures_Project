@@ -1,0 +1,3 @@
+ Recursion was used in the solution of this problem for finding the element.But before the recursion, it first checks if the user is the group name of the user is in group users and return true.
+ As a result, the time complexity is O(n) since there is only one for loop for iteration.
+ The space complexity is also O(1) because this can be considered as a constant since only one variable is assigned.
