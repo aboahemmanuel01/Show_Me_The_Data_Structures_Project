@@ -1,0 +1,4 @@
+The solution to this problem calculates the occurence of each charater, sorts, and encode with the minimum possible length in the string. As a result, when encoding, the time complexity for the solution is O(nlog(n)) whereas its space complexity is O(n).
+Similarly, during decoding, the time complexity is given as O(n) since there is only one loop in the function whereas the space complexity is O(1) because it assigns only one charater at a time making it a constant.
+Where n is the distinct characters
+
