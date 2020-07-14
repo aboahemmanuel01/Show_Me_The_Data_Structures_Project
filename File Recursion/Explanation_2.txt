@@ -1,0 +1,10 @@
+First, I checked whether the path was in the specified directory and if not, it returns an empty list. 
+
+I used recursion because I had to go through all the directory to check each file. So if the suffix corresponds to the path, then I return the path, else if it is a directory, then, for each file in the directory I call the recursive function again.
+
+The recursive function was used for this problem and so for a given number of files, n, in a directory, the time complexity is O(n) whereas for a given number of the files, n, a variable is allocated for each and so the space complexity is O(n).
+
+Where n is the number of files in the directory.
+
+
+
