@@ -1,5 +1,3 @@
-# Boilerplate Template for the this problem was used
-
 import os
 
 def find_files(suffix, path):
