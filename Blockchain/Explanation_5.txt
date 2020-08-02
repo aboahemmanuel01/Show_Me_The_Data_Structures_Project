@@ -1,3 +1,4 @@
 The solution to this problem presents the class Linkedlist in which its method (add_block) updates the block.
 As a result the add_block function occurs in a constant time and so its time complexity is O(1).
-This same reasons applies to the space complexity as it allocates a single variable each time and so the total space complexity is O(n). where n is the total number od elements in the linkelist.
+This same reasons applies to the space complexity as it allocates a single variable each time and so the total space complexity is O(n). 
+Where n is the total number od elements in the linkelist.
