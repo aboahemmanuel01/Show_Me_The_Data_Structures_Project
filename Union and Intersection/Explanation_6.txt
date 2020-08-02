@@ -1,4 +1,6 @@
-As it can be seen from the problem 6 solution, there two different sets for creating union and intersection of the two linked lists. The output was then from the linked list of this set. 
+As it can be seen from the problem 6 solution, there two different sets for creating union and intersection of the two linked lists. 
+
+The output was then from the linked list of this set. 
 
 As a result, the time complexity for the union becomes O(n) and the space complexity becomes O(n).
 Similarly the time complexity of the intersection is O(n) whereas the space complexity of the intersection is O(n).
