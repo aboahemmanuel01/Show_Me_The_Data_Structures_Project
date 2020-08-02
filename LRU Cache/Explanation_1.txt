@@ -1,8 +1,11 @@
-This problem required the that the LRU (least recently used) cache with big O of O(1). As a result, the python dictionary method was adopted because it has a contant time complexity for a given key.
+This problem required the that the LRU (least recently used) cache with big O of O(1). 
+As a result, the python dictionary method was adopted because it has a contant time complexity for a given key.
 
 A dictionary was created as cache to store the keys and values that are required. 
 
-The set() method sets the cache and assigns value at certain keys. Initially, the keys are all none until they are assigned by the set() method. The keys are therefore assigned by first removing its value if it is already assigned or else, it checks the capacity and removes the key item form the dictionary before assigning a value to it. This makes the time complexity of the set() method a O(1). 
+The set() method sets the cache and assigns value at certain keys. 
+Initially, the keys are all none until they are assigned by the set() method. 
+The keys are therefore assigned by first removing its value if it is already assigned or else, it checks the capacity and removes the key item form the dictionary before assigning a value to it. This makes the time complexity of the set() method a O(1). 
 The get() method is used to get the value of the key and it is a constant with a Big o of O(1).
 
 Based on this analogy, the get time complexity and the set time complexity both have big O of O(1).
