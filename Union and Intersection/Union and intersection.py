@@ -6,7 +6,6 @@ class Node:
     def __repr__(self):
         return str(self.value)
 
-
 class LinkedList:
     def __init__(self):
         self.head = None
@@ -19,9 +18,7 @@ class LinkedList:
             cur_head = cur_head.next
         return out_string
 
-
     def append(self, value):
-
         if self.head is None:
             self.head = Node(value)
             return
@@ -85,14 +82,11 @@ def intersection(llist_1, llist_2):
         if x in lst2:
             lst.append(x)
 
-
     output = LinkedList()
 
     for l in lst:
         output.append(l)
-
     return output
-
 
 # Test case 1
 
@@ -145,8 +139,6 @@ for i in element_2:
 print(union(linked_list_5, linked_list_6))
 print(intersection(linked_list_5, linked_list_6))
 
-
-
 linked_list_7 = LinkedList()
 linked_list_8 = LinkedList()
 
@@ -161,8 +153,6 @@ for i in element_2:
 
 print(union(linked_list_7, linked_list_8))
 print(intersection(linked_list_7, linked_list_8))
-
-
 
 linked_list_9 = LinkedList()
 linked_list_10 = LinkedList()
